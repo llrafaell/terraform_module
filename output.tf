@@ -3,7 +3,7 @@ output "bucket_arn"{
 }
 
 output "s3_bucket_id" {
-  description = "The name of the bucket."
+  description = "The id of the bucket."
   value       = aws_s3_bucket.rafaelsilva4_module.id
 }
 
