@@ -2,8 +2,8 @@ provider "aws" {
   region = var.region
 }
 
-resource "aws_s3_bucket" "rafaelsilva4_module"{
-  bucket = "rafaelsilva4_module"
+resource "aws_s3_bucket" "rafaelsilva4-module"{
+  bucket = "rafaelsilva4-module"
   tags = {
     owner        = "rafael.silva4"
   }
